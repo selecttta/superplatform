@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["deno.window"],
+    "strict": true,
+    "target": "ES2022"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.177.0/"
+  }
+}
